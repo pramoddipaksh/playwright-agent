@@ -1,0 +1,141 @@
+- generic [ref=e795]:
+  - banner [ref=e796]:
+    - generic [ref=e797]:
+      - generic [ref=e798]: GREENKART
+      - link "🎯 I’ll help you prepare for your next QA job — Explore the QA Career Accelerator." [ref=e800] [cursor=pointer]:
+        - /url: https://rahulshettyacademy.com/qa-career-accelerator-job-ready
+  - generic [ref=e805]:
+    - generic [ref=e806]:
+      - generic [ref=e807]:
+        - generic [ref=e808]:
+          - generic [ref=e809]: "Page size:"
+          - combobox "Page size:" [ref=e810]:
+            - option "5"
+            - option "10" [selected]
+            - option "20"
+        - generic [ref=e811]:
+          - generic [ref=e812]: "Search:"
+          - searchbox "Search:" [ref=e813]
+      - list "Pagination" [ref=e815]:
+        - listitem [ref=e902]:
+          - button "First" [ref=e903] [cursor=pointer]
+        - listitem [ref=e904]:
+          - button "Previous" [ref=e905] [cursor=pointer]
+        - listitem [ref=e816]:
+          - button "1" [ref=e906] [cursor=pointer]
+        - listitem [ref=e907]:
+          - button "2 (current)" [ref=e908] [cursor=pointer]:
+            - text: "2"
+            - generic [ref=e909]: (current)
+        - listitem:
+          - button "Next" [disabled]
+        - listitem:
+          - button "Last" [disabled]
+    - table [ref=e875]:
+      - alert [ref=e830]: "Sorted by name: ascending order"
+      - rowgroup [ref=e831]:
+        - row [ref=e876]:
+          - 'columnheader "Veg/fruit name: activate to sort column descending" [ref=e877] [cursor=pointer]': Veg/fruit name
+          - 'columnheader "Price: activate to sort column ascending" [ref=e835] [cursor=pointer]': Price
+          - 'columnheader "Discount price: activate to sort column ascending" [ref=e836] [cursor=pointer]': Discount price
+      - rowgroup [ref=e837]:
+        - row [ref=e910]:
+          - cell "Guava" [ref=e911]
+          - cell "42" [ref=e912]
+          - cell "20" [ref=e913]
+        - row [ref=e914]:
+          - cell "Mango" [ref=e915]
+          - cell "93" [ref=e916]
+          - cell "53" [ref=e917]
+        - row [ref=e918]:
+          - cell "Orange" [ref=e919]
+          - cell "88" [ref=e920]
+          - cell "23" [ref=e921]
+        - row [ref=e922]:
+          - cell "Pineapple" [ref=e923]
+          - cell "44" [ref=e924]
+          - cell "34" [ref=e925]
+        - row [ref=e926]:
+          - cell "Potato" [ref=e927]
+          - cell "34" [ref=e928]
+          - cell "22" [ref=e929]
+        - row [ref=e930]:
+          - cell "Rice" [ref=e931]
+          - cell "37" [ref=e932]
+          - cell "46" [ref=e933]
+        - row [ref=e934]:
+          - cell "Strawberry" [ref=e935]
+          - cell "23" [ref=e936]
+          - cell "15" [ref=e937]
+        - row [ref=e938]:
+          - cell "Tomato" [ref=e939]
+          - cell "37" [ref=e940]
+          - cell "26" [ref=e941]
+        - row [ref=e942]:
+          - cell "Wheat" [ref=e943]
+          - cell "67" [ref=e944]
+          - cell "28" [ref=e945]
+  - generic [ref=e858]:
+    - generic [ref=e859]: Delivery Date
+    - generic [ref=e860]:
+      - generic [ref=e861]:
+        - generic [ref=e862]:
+          - spinbutton "--" [ref=e863]: "10"
+          - generic [ref=e864]: /
+          - spinbutton "--" [ref=e865]: "14"
+          - generic [ref=e866]: /
+          - spinbutton "----" [ref=e867]: "2026"
+        - button [ref=e868] [cursor=pointer]
+        - button [active] [ref=e872] [cursor=pointer]
+      - generic [ref=e948]:
+        - generic [ref=e949]:
+          - button "«" [ref=e950] [cursor=pointer]
+          - button "‹" [ref=e951] [cursor=pointer]
+          - button "October 2026" [ref=e952] [cursor=pointer]
+          - button "›" [ref=e953] [cursor=pointer]
+          - button "»" [ref=e954] [cursor=pointer]
+        - generic [ref=e958]:
+          - generic [ref=e959]:
+            - generic [ref=e960]: Mon
+            - generic [ref=e961]: Tue
+            - generic [ref=e962]: Wed
+            - generic [ref=e963]: Thu
+            - generic [ref=e964]: Fri
+            - generic [ref=e965]: Sat
+            - generic [ref=e966]: Sun
+          - generic [ref=e967]:
+            - button "September 28, 2026" [ref=e968] [cursor=pointer]: "28"
+            - button "September 29, 2026" [ref=e969] [cursor=pointer]: "29"
+            - button "September 30, 2026" [ref=e970] [cursor=pointer]: "30"
+            - button "October 1, 2026" [ref=e971] [cursor=pointer]: "1"
+            - button "October 2, 2026" [ref=e972] [cursor=pointer]: "2"
+            - button "October 3, 2026" [ref=e973] [cursor=pointer]: "3"
+            - button "October 4, 2026" [ref=e974] [cursor=pointer]: "4"
+            - button "October 5, 2026" [ref=e975] [cursor=pointer]: "5"
+            - button "October 6, 2026" [ref=e976] [cursor=pointer]: "6"
+            - button "October 7, 2026" [ref=e977] [cursor=pointer]: "7"
+            - button "October 8, 2026" [ref=e978] [cursor=pointer]: "8"
+            - button "October 9, 2026" [ref=e979] [cursor=pointer]: "9"
+            - button "October 10, 2026" [ref=e980] [cursor=pointer]: "10"
+            - button "October 11, 2026" [ref=e981] [cursor=pointer]: "11"
+            - button "October 12, 2026" [ref=e982] [cursor=pointer]: "12"
+            - button "October 13, 2026" [ref=e983] [cursor=pointer]: "13"
+            - button "October 14, 2026" [ref=e984] [cursor=pointer]: "14"
+            - button "October 15, 2026" [ref=e985] [cursor=pointer]: "15"
+            - button "October 16, 2026" [ref=e986] [cursor=pointer]: "16"
+            - button "October 17, 2026" [ref=e987] [cursor=pointer]: "17"
+            - button "October 18, 2026" [ref=e988] [cursor=pointer]: "18"
+            - button "October 19, 2026" [ref=e989] [cursor=pointer]: "19"
+            - button "October 20, 2026" [ref=e990] [cursor=pointer]: "20"
+            - button "October 21, 2026" [ref=e991] [cursor=pointer]: "21"
+            - button "October 22, 2026" [ref=e992] [cursor=pointer]: "22"
+            - button "October 23, 2026" [ref=e993] [cursor=pointer]: "23"
+            - button "October 24, 2026" [ref=e994] [cursor=pointer]: "24"
+            - button "October 25, 2026" [ref=e995] [cursor=pointer]: "25"
+            - button "October 26, 2026" [ref=e996] [cursor=pointer]: "26"
+            - button "October 27, 2026" [ref=e997] [cursor=pointer]: "27"
+            - button "October 28, 2026" [ref=e998] [cursor=pointer]: "28"
+            - button "October 29, 2026" [ref=e999] [cursor=pointer]: "29"
+            - button "October 30, 2026" [ref=e1000] [cursor=pointer]: "30"
+            - button "October 31, 2026" [ref=e1001] [cursor=pointer]: "31"
+            - button "November 1, 2026" [ref=e1002] [cursor=pointer]: "1"
